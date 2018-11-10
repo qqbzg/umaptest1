@@ -1,9 +1,9 @@
 //
-//  ATCarouseView.m
-//  testbed
+//  ATCarouselView.m
+//  轮播图
 //
-//  Created by liuxiyuan on 2018/10/26.
-//  Copyright © 2018 Alibaba. All rights reserved.
+//  Created by lg on 16/7/4.
+//  Copyright © 2016年 at. All rights reserved.
 //
 
 #import "ATCarouselView.h"
@@ -12,7 +12,7 @@
 static const int imageBtnCount = 3;
 
 @interface ATCarouselView ()<UIScrollViewDelegate>
-@property (nonatomic, weak) UIScrollView *scrollView;
+@property (nonatomic, weak) UIScrollView*scrollView;
 @property (nonatomic, weak) UIPageControl *pageControl;
 @property (nonatomic, weak) NSTimer *timer;
 
@@ -219,11 +219,11 @@ static const int imageBtnCount = 3;
 
 
 - (void)imageBtnClick:(UIButton *)btn {
-    //    NSLog(@"%ld",btn.tag);
+//    NSLog(@"%ld",btn.tag);
     if ([self.delegate respondsToSelector:@selector(carouselView:indexOfClickedImageBtn:)])
     {
         [self.delegate carouselView:self indexOfClickedImageBtn:btn.tag];
     }
-    
+
 }
 @end

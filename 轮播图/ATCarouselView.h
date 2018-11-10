@@ -1,11 +1,10 @@
 //
 //  ATCarouselView.h
-//  testbed
+//  轮播图
 //
-//  Created by liuxiyuan on 2018/10/26.
-//  Copyright © 2018 Alibaba. All rights reserved.
+//  Created by lg on 16/7/4.
+//  Copyright © 2016年 at. All rights reserved.
 //
-
 
 #import <UIKit/UIKit.h>
 
