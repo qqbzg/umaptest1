@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files = "轮播图/ATCarouselView.{h,m}"
   #s.resources = "轮播图/Assets.xcassets"
   s.resource_bundles = {
-      'Resources' => ["Resources/*.*"]
+      'Resources' => ["轮播图/Resources/*.*"]
   }
   s.exclude_files = "Classes/Exclude"
 
