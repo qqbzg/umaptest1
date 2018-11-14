@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AE26881219BBFCD000710F2 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26880219BBFCD000710F2 /* 0.jpg */; };
+		2AE26883219BBFD7000710F2 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AE26882219BBFD7000710F2 /* 4.jpg */; };
 		AF75593C1D2A0273009BFDE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF75593B1D2A0273009BFDE3 /* main.m */; };
 		AF75593F1D2A0273009BFDE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF75593E1D2A0273009BFDE3 /* AppDelegate.m */; };
 		AF7559421D2A0273009BFDE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7559411D2A0273009BFDE3 /* ViewController.m */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AE26880219BBFCD000710F2 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.jpg; path = Assets.xcassets/0.imageset/0.jpg; sourceTree = "<group>"; };
+		2AE26882219BBFD7000710F2 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = Assets.xcassets/4.imageset/4.jpg; sourceTree = "<group>"; };
 		AF7559371D2A0273009BFDE3 /* 轮播图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "轮播图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF75593B1D2A0273009BFDE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF75593D1D2A0273009BFDE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AE2687F219BBF6A000710F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AE26882219BBFD7000710F2 /* 4.jpg */,
+				2AE26880219BBFCD000710F2 /* 0.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		AF75592E1D2A0273009BFDE3 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +117,7 @@
 		AF7559391D2A0273009BFDE3 /* 轮播图 */ = {
 			isa = PBXGroup;
 			children = (
+				2AE2687F219BBF6A000710F2 /* Resources */,
 				AF75593D1D2A0273009BFDE3 /* AppDelegate.h */,
 				AF75593E1D2A0273009BFDE3 /* AppDelegate.m */,
 				AF7559401D2A0273009BFDE3 /* ViewController.h */,
@@ -249,8 +263,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AE26881219BBFCD000710F2 /* 0.jpg in Resources */,
 				AF75594A1D2A0273009BFDE3 /* LaunchScreen.storyboard in Resources */,
 				AF7559471D2A0273009BFDE3 /* Assets.xcassets in Resources */,
+				2AE26883219BBFD7000710F2 /* 4.jpg in Resources */,
 				AF7559451D2A0273009BFDE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +519,7 @@
 				AF7559661D2A0273009BFDE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF7559671D2A0273009BFDE3 /* Build configuration list for PBXNativeTarget "轮播图Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +528,7 @@
 				AF7559691D2A0273009BFDE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF75596A1D2A0273009BFDE3 /* Build configuration list for PBXNativeTarget "轮播图UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +537,7 @@
 				AF75596C1D2A0273009BFDE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
