@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "umaptest1"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "umaptest1 xiyuanl"
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
   s.source_files = "轮播图/ATCarouselView.{h,m}"
   #s.resources = "轮播图/Assets.xcassets"
   s.resource_bundles = {
-      '轮播图' => ["轮播图/Assets.xcassets/*.*"]
+      '轮播图' => ["轮播图/Assets.xcassets"]
   }
   s.exclude_files = "Classes/Exclude"
 
